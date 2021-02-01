@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #eef9bf;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+
+}
+
+#cardPricing {
+  margin: auto 1rem;
+}
+
+#carouselWireframeCaptions {
+  position: sticky;
+  align-content: center;
+  padding: 1rem;
+  margin: 5rem;
+  height: 40rem;
+}
+
+#contactForm {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(https://blog.felgo.com/hubfs/16%20Sites%20to%20Download%20the%20Best%20Free%20Game%20Graphics%20in%202020%20header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 800px;
+}
+
+#createAcct {
+  padding: 3rem;
+}
+
+#footer {
+  font-family: 'Montserrat', sans-serif;
+  position: sticky;
+}
+
+#formPages {
+  background-image: url(https://blog.felgo.com/hubfs/16%20Sites%20to%20Download%20the%20Best%20Free%20Game%20Graphics%20in%202020%20header.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 8%;
+  padding-bottom: 15%;
+  height: auto;
+}
+
+#header {
+  font-family: 'Montserrat', sans-serif;
+  position: sticky;
+}
+
+#pageContentMain {
+  position: sticky;
+  margin: 1rem auto 1rem auto;
+  padding-top: 3rem;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 3rem;
+}
+
+.col-md-3{
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.contact{
+  padding: 2%;
+  height: 400px;
+}
+
+.contact-info{
+  margin-top:10%;
+}
+
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+
+.contact-form label{
+  font-weight:600;
+}
+
+.dashboard-img {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
+
+.forgotPassword {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.img-container {
+  margin: 1% auto 1% 15%;
+}
+
+.landing-img {
+  display: inline-block;
+  position: relative;
+  margin: 0 20px;
+}
+
+.links-img {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
+
+.loot-img {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
+
+.quest-img {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
+
+.social-img {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
+
+.shop-img {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+}
+
+.carousel-img-0 {
+  transform: rotate(-15deg);
+}
+
+.carousel-img-1 {
+  transform: rotate(0deg);
+}
+
+.carousel-img-2 {
+  transform: rotate(15deg);
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.wireframeCarousels {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(https://blog.felgo.com/hubfs/16%20Sites%20to%20Download%20the%20Best%20Free%20Game%20Graphics%20in%202020%20header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Create Account & Sign In Account Forms CSS */
+.cardCreateAcct {
+  height: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.cardSignIn {
+  height: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 550px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.card-header h3{
+color: white;
+text-align: center;
+}
+
+.card-body {
+  padding-bottom: 35px;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.social_icon{
+position: relative;
+right: 25%;
+top: -25%;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #f6d743;
+color: black;
+border:0;
+}
+
+input:focus{
+outline: 0 0 0 0;
+box-shadow: 0 0 0 0;
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #f6d743;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #f6d743;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
