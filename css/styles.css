@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
-  background-color: #eef9bf;
+  background-color: #FDF1AA;
 }
 
 h1 {
@@ -240,7 +240,7 @@ top: -25%;
 
 .input-group-prepend span{
 width: 50px;
-background-color: #f6d743;
+background-color: #FDF1AA;
 color: black;
 border:0;
 }
@@ -264,7 +264,7 @@ margin-right: 5px;
 
 .login_btn{
 color: black;
-background-color: #f6d743;
+background-color: #FDF1AA;
 width: 100px;
 }
 
@@ -284,7 +284,7 @@ margin-left: 4px;
 .social_icon span{
 font-size: 60px;
 margin-left: 10px;
-color: #f6d743;
+color: #FDF1AA;
 }
 
 .social_icon span:hover{
