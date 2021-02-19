@@ -8,11 +8,65 @@ body {
     color: #343a40;
 }
 
+/*----- HR -----*/
+hr {
+    margin: 1.5em 0;
+    text-align: center;
+    border: none;
+    padding: .5rem 0;
+  }
+  
+  hr:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 0.4em;
+    background-color: #e7d22d;
+  }
+  
+  hr:after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 0.4em;
+    background-color: #e7d22d;
+  }
+
+/*-- Images --*/
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.screenshot-img {
+    margin: 2% 2% 4% 8%;
+}
+
+/*-- Formatting --*/
 .btn-custom {
     background-color: #e7d22d;
     border: 1px solid #343a40;
 }
 
+.container {
+    border: 1px solid #343a40;
+}
+
+
+
+.textbox {
+    background-color: #f8f9fa;
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+
+/*-- Col --*//
 .col-md-3{
     padding: 4%;
     border-top-left-radius: 0.5rem;
@@ -26,50 +80,52 @@ body {
     border-bottom-right-radius: 0.5rem;
   }
 
+/*-- Flex Box --*/ 
 .flex-container {
     display: flex;
     flex-direction: row;
+    width:80%;
+    padding-top: 2%;
 }
 
-.flex-item-left {
-    padding: 4% 2% 2% 10%;
-    flex: 33%;
+.flex-left {
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.flex-right {
+    margin-left: 10%;
 }
 
-.flex-item-center {
-    padding: 8% 2%;
-    flex: 33%;
-}
-
-.flex-item-right {
-    padding: 4% 2%;
-    flex: 33%;
-}
-
-.logo-img {
-    max-height: 24rem;
-    width: auto;
-}
-
-.screenshot-img {
-    max-height: 24rem;
-    width: auto;
-}
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
-}
-
+/*-- ID's --*/
 #contactForm {
     font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/cyber-pattern.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 2% 2% 16% 2%;
+  }
+
+  #slogan {
     background-image: url(https://blog.felgo.com/hubfs/16%20Sites%20to%20Download%20the%20Best%20Free%20Game%20Graphics%20in%202020%20header.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 40rem;
-    padding-top: 2%;
+    height: auto;
+    width: 100%;
+    padding: 2% 2% 2% 2%;
   }
+
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .flex-item-right, .flex-item-center, .flex-item-left {
+        flex: 100%;
+    }
+}
