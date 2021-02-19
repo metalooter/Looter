@@ -56,8 +56,6 @@ hr {
     border: 1px solid #343a40;
 }
 
-
-
 .textbox {
     background-color: #f8f9fa;
     border-radius: 10%;
@@ -83,18 +81,21 @@ hr {
 /*-- Flex Box --*/ 
 .flex-container {
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    width:80%;
+    width:100%;
+    height: auto;
+    margin-top: 1%;
     padding-top: 2%;
 }
-
 .flex-left {
-    margin-left: 25%;
-    margin-top: 2%;
+    margin-top: 4%;
 }
+
 .flex-right {
-    margin-left: 10%;
+    margin-left: 4%;
 }
+
 
 /*-- ID's --*/
 #contactForm {
@@ -125,7 +126,9 @@ hr {
     .flex-container {
       flex-direction: column;
     }
-    .flex-item-right, .flex-item-center, .flex-item-left {
+    .flex-right, .flex-left {
         flex: 100%;
+        margin-top: 6%;
     }
+    .flex
 }
