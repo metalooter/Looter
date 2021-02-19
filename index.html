@@ -15,6 +15,9 @@
         <!-- Normalize CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 
+        <!-- Email Form CSS -->
+        <link rel="stylesheet" href="css/form.css">
+
         <!-- Local CSS -->
         <link rel="stylesheet" href="css/main.css">
 
@@ -56,7 +59,7 @@
             <article id="slogan">
                 <div class="flex-container">
                     <div class="flex-item-left">
-                        <img class="logo-img" src="images/ml512x512v2.png" alt="metalooter-logo-img"> 
+                        <img class="logo-img" src="images/ml512x512v2.png" alt="metalooter-logo-img" style="width:100%"> 
                     </div>
 
                     <div class="title-caption flex-item-center">
@@ -66,7 +69,7 @@
                     </div>
 
                     <div class="flex-item-right">
-                      <img class="screenshot-img" src="images/landing-dashboard-iPhone.png" alt="app-screenshot-img">
+                      <img class="screenshot-img" src="images/landing-dashboard-iPhone.png" alt="app-screenshot-img" style="width:80%">
                     </div>
                 </div>
             </article>
@@ -90,27 +93,24 @@
 
                             <div class="col-md-9">
                               <div class="contact-form">
-                                <form action="https://formspree.io/f/mpzoeyvo" method="post" enctype="text/plain">
+                                <form action="https://formspree.io/f/mpzoeyvo" method="post">
                                   <div class="form-group">
-                                    <label class="control-label col-sm-2" for="email">Email:</label>
+                                    <label class="control-label col-sm-2" for="user-email">Email:</label>
                                     <div class="col-sm-10">
-                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="_replyto">
+                                      <input class="form-control" id="user-email" type="text" name="email" placeholder="Enter email">
                                     </div>
                                   </div>
-
                                   <div class="form-group">
-                                    <label class="control-label col-sm-2" for="comment">Comment:</label>
+                                    <label class="control-label col-sm-3" for="user-message">Your Message:</label>
                                     <div class="col-sm-10">
                                       <textarea class="form-control" rows="5" id="comment" name="message" placeholder="What features would you like to see in a video game rewards app?"></textarea>
                                     </div>
                                   </div>
-
                                   <div class="form-group">
                                     <div class="col-sm-offset-2 col-sm-10">
                                       <button type="submit" class="btn btn-lg btn-block btn-secondary btn-custom" name="Submit" value="Send">Submit</button>
                                     </div>
                                   </div>
-
                                 </form>
                               </div>
                             </div>
