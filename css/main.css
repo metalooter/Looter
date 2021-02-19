@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #343a40;
+}
+
+.btn-custom {
+    background-color: #e7d22d;
+    border: 1px solid #343a40;
+}
+
+.col-md-3{
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  
+  .col-md-9{
+    background: #f8f9fa;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-left {
+    padding: 4% 2% 2% 10%;
+    flex: 33%;
+}
+
+.flex-item-center {
+    padding: 8% 2%;
+    flex: 33%;
+}
+
+.flex-item-right {
+    padding: 4% 2%;
+    flex: 33%;
+}
+
+.logo-img {
+    max-height: 24rem;
+    width: auto;
+}
+
+.screenshot-img {
+    max-height: 24rem;
+    width: auto;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+
+#contactForm {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://blog.felgo.com/hubfs/16%20Sites%20to%20Download%20the%20Best%20Free%20Game%20Graphics%20in%202020%20header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40rem;
+    padding-top: 2%;
+  }
